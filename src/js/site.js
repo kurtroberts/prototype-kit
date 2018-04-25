@@ -9,9 +9,9 @@
 *********/
 
 
-//If RP3 doesn't exist in global scope, create it as an empty object.
+//If App doesn't exist in global scope, create it as an empty object.
 //Otherwise, use it.
-var RP3 = RP3 === undefined ? {} : RP3;
+var App = App === undefined ? {} : App;
 
 
 //By wrapping everything in a closure, we know that we're
@@ -21,13 +21,13 @@ var RP3 = RP3 === undefined ? {} : RP3;
 (function ($) {
 
 	/***
-	* Add methods here to the RP3 object
+	* Add methods here to the App object
 	*/
-	_.extend(RP3, {
+	_.extend(App, {
 		//EXAMPLE: Create an example function to set expectations
 		example: function (msg) {
 			//write msg to the log
-			RP3.log(msg);
+			App.log(msg);
 		},
 
 		//Proxy log calls to allow for flexibility later
@@ -40,7 +40,7 @@ var RP3 = RP3 === undefined ? {} : RP3;
 	*/
 	$(function () {
 		//make subnav toggling active
-		RP3.example("Let's do this!");
+		App.example("Let's do this!");
 	});
 
 

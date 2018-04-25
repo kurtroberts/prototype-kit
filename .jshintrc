@@ -7,8 +7,5 @@
   "browser": true,
   "jquery": true,
   "node": true,
-  "devel": true,
-  "globals": {
-    "RP3": true
-  }
+  "devel": true
 }

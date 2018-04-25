@@ -3,7 +3,7 @@
 
 <!-- @@block metaTags -->
 
-	<!-- @@include /_components/metaTags.html { "title": "Home Page", "description": "The new RP3 Homepage!!!" } -->
+	<!-- @@include /_components/metaTags.html { "title": "Home Page", "description": "The new Homepage!!!" } -->
 
 <!-- @@close -->
 
@@ -11,19 +11,19 @@
 
 <!-- @@block content -->
 
-	<% 
-	
+	<%
+
 	//Use ejs to do programmatic tricks.
-	for (var i = 0; i < 5; i++) { 
-		
+	for (var i = 0; i < 5; i++) {
+
 	%>
 	<h2>Paragraph <%= i %></h2>
 	<p>
 		<!-- @@include /_components/loremIpsum.html {} -->
 	</p>
-	<% 
+	<%
 
 	}
-	 
+
 	%>
 <!-- @@close -->

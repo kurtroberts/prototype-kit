@@ -1,6 +1,6 @@
-# RP3's Prototype Build Kit
+# Prototype Build Kit
 
-This is our opinion of what you need to start prototyping in code.  We've pre-configured SCSS, HTML Extender, EJS, Markdown rendering, BrowserSync and more.
+This is what you need to start prototyping in code. Pre-configured SCSS, HTML Extender, EJS, Markdown rendering, BrowserSync and more.
 
 ## Getting started
 
